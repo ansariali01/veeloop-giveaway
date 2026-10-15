@@ -5,8 +5,7 @@ const rateLimit = require("express-rate-limit");
 
 const errorHandler = require("./middleware/errorMiddleWare");
 const authRoutes = require("./routes/authRoutes");
-const giveawayRoutes = require("./routes/giveawayRoutes");
-
+const giveawayRoutes = require("./routes/giveAwayRoutes");
 const app = express();
 
 const apiLimiter = rateLimit({
