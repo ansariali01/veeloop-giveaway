@@ -41,4 +41,5 @@ const giveawaySchema = new mongoose.Schema(
     }
 );
 
-module.exports = mongoose.model("Giveaway", giveawaySchema);
+const Giveaway = mongoose.models.Giveaway || mongoose.model("Giveaway", giveawaySchema);
+module.exports = Giveaway;
