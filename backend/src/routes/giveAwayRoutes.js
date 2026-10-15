@@ -11,7 +11,7 @@ const {
 
 const {
     joinGiveaway
-} = require("../controllers/giveawayJoinController");
+} = require("../controllers/giveAwayJoinController");
 
 const {
     selectGiveawayWinners
