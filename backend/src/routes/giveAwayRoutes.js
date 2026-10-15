@@ -7,7 +7,7 @@ const { joinLimiter } = require("../middleware/rateLimitMiddleWare");
 const {
     getCurrentGiveaway,
     getGiveawayById
-} = require("../controllers/giveawayController");
+} = require("../controllers/giveAwayController");
 
 const {
     joinGiveaway
