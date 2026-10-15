@@ -2,9 +2,10 @@ const express = require("express");
 const cors = require("cors");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
-const errorHandler = require("./Middleware/errorMiddleWare");
-const giveawayRoutes = require("./routes/giveawayRoutes");
+
+const errorHandler = require("./middleware/errorMiddleWare");
 const authRoutes = require("./routes/authRoutes");
+const giveawayRoutes = require("./routes/giveawayRoutes");
 
 const app = express();
 
