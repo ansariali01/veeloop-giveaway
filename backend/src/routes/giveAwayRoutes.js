@@ -1,8 +1,8 @@
 const express = require("express");
 
-const authenticateUser = require("../middleware/authMiddleware");
-const adminMiddleware = require("../middleware/adminMiddleware");
-const { joinLimiter } = require("../middleware/rateLimitMiddleware");
+const authenticateUser = require("../middleware/authMiddleWare");
+const adminMiddleware = require("../middleware/adminMiddleWare");
+const { joinLimiter } = require("../middleware/rateLimitMiddleWare");
 
 const {
     getCurrentGiveaway,
