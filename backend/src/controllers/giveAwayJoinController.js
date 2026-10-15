@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const crypto = require("crypto");
 const createDeviceHash = require("../utils/deviceHash");
 
-const Giveaway = require("../models/Giveaway");
+const Giveaway = require("../models/GiveAway");
 const Prize = require("../models/Prize");
 const User = require("../models/User");
 const GiveawayParticipation = require("../models/GiveawayParticipation");
