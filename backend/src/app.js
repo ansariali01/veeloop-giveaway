@@ -3,7 +3,7 @@ const cors = require("cors");
 const helmet = require("helmet");
 const rateLimit = require("express-rate-limit");
 
-const errorHandler = require("./middleware/errorMiddleware");
+const errorHandler = require("./middleware/errorMiddleWare");
 
 const giveawayRoutes = require("./routes/giveawayRoutes");
 const authRoutes = require("./routes/authRoutes");
