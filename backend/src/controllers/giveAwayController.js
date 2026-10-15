@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const Giveaway = require("../models/Giveaway");
+const Giveaway = require("../models/giveaway");
 const Prize = require("../models/Prize");
 
 const getCurrentGiveaway = async (req, res) => {
