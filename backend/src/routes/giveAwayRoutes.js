@@ -15,7 +15,7 @@ const {
 
 const {
     selectGiveawayWinners
-} = require("../controllers/giveawayWinnerController");
+} = require("../controllers/giveAwayWinnerController");
 
 const {
     submitPrizeClaim
@@ -25,7 +25,7 @@ const {
     getGiveawayWinners,
     getPreviousGiveawayWinners,
     getMyGiveawayClaim
-} = require("../controllers/giveawayWinnerReadController");
+} = require("../controllers/giveAwayWinnerReadController");
 
 const router = express.Router();
 
