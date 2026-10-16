@@ -63,7 +63,6 @@ giveawayParticipationSchema.index(
 );
 
 giveawayParticipationSchema.index({ deviceHash: 1 });
-module.exports = mongoose.model(
-    "GiveawayParticipation",
-    giveawayParticipationSchema
-);
+module.exports =
+  mongoose.models.GiveawayParticipation ||
+  mongoose.model("GiveawayParticipation", giveawayParticipationSchema);
