@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 const crypto = require("crypto");
 
-const Giveaway = require("../models/Giveaway");
+const Giveaway = require("../models/GiveAway");
 const Prize = require("../models/Prize");
-const GiveawayParticipation = require("../models/GiveawayParticipation");
-const GiveawayWinner = require("../models/GiveawayWinner");
+const GiveawayParticipation = require("../models/GiveAwayParticipation");
+const GiveawayWinner = require("../models/GiveAwayWinner");
 const AuditLog = require("../models/AuditLog");
 
 const selectGiveawayWinners = async (req, res) => {
