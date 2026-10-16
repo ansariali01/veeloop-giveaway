@@ -6,7 +6,7 @@ const Giveaway = require("../models/GiveAway");
 const Prize = require("../models/Prize");
 const User = require("../models/User");
 const GiveawayParticipation = require("../models/GiveAwayParticipation");
-const GiveawayEntryTransaction = require("../models/GiveawayEntryTransaction");
+const GiveawayEntryTransaction = require("../models/GiveAwayEntryTransaction");
 const AuditLog = require("../models/AuditLog");
 const FraudEvent = require("../models/FraudEvent");
 
