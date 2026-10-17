@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const Giveaway = require("../models/Giveaway");
+const Giveaway = require("../models/GiveAway");
 const GiveawayWinner = require("../models/GiveAwayWinner");
 const Prize = require("../models/Prize");
 const PrizeClaim = require("../models/PrizeClaim");
